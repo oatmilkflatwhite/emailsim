@@ -212,8 +212,7 @@ def end():
         print("People think you're weird.")
     elif haters == 0:
         print("Everyone thinks you're okay!")
-
-        
+      
         
 
 
@@ -241,4 +240,7 @@ while True:
         client(a_e2,aye)
         reaction(aye)
     end()
+    player_emails = 0
+    haters = 0
+    hr_times = 0  
     input("Press any key to play again!")
