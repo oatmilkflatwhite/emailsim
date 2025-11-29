@@ -242,5 +242,8 @@ while True:
     end()
     player_emails = 0
     haters = 0
-    hr_times = 0  
+    hr_times = 0
+    list = [car,lin,ste,aye,jen]
+    for i in list:
+        i.hateplayer = False
     input("Press any key to play again!")
